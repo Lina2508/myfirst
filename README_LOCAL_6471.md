@@ -17,8 +17,6 @@ After performing the operations above, two solr cores will be created (d7_collec
 
 ref: https://github.com/mparker17/docker-solr-search_api_solr
 some changes
-<<<<<<< HEAD
+
 enother new changes
-=======
-new changes
->>>>>>> mybranch
+new changes mybranch
