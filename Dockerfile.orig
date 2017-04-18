@@ -1,4 +1,4 @@
-
+<<<<<<< HEAD
 FROM solr:5
 
 ENV SOLR_VERSION 5.x
@@ -14,7 +14,7 @@ RUN bin/solr start && \
 # Copy the Drupal module's configuration into the core.
 COPY d7/search_api_solr/solr-conf/$SOLR_VERSION/* /opt/solr/server/solr/$SOLR_CORE_NAME_D7/conf/
 COPY d8/search_api_solr/solr-conf/$SOLR_VERSION/* /opt/solr/server/solr/$SOLR_CORE_NAME_D8/conf/
-
+=======
 FROM solr:5
 
 ENV SOLR_VERSION 5.x
@@ -30,4 +30,4 @@ RUN bin/solr start && \
 # Copy the Drupal module's configuration into the core.
 COPY d7/search_api_solr/solr-conf/$SOLR_VERSION/* /opt/solr/server/solr/$SOLR_CORE_NAME_D7/conf/
 COPY d8/search_api_solr/solr-conf/$SOLR_VERSION/* /opt/solr/server/solr/$SOLR_CORE_NAME_D8/conf/
-fe12847e7e91a6b731b4cdfea7f551e1c111ae61
+>>>>>>> fe12847e7e91a6b731b4cdfea7f551e1c111ae61
